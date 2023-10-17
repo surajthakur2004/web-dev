@@ -1,0 +1,30 @@
+@media all and (min-width:1000px)
+{
+    ul li a:after{
+        content:"(" attr(data-email) ")";
+        color: black;
+        font-size: 14px;
+       
+
+    }
+}
+@media all and (min-width:700px) and (max-width:900px)
+{
+    ul li a:before{
+        content:"E-mail:" ; 
+        color: rgb(224, 223, 223);
+        
+
+    }
+}
+@media all and (max-width:700px) , (min-width:1000px)
+{
+    ul li a:before{
+        background: url(../Image/email\ logo.png) left center no-repeat;
+        padding: 20px;
+    }
+}
+
+ul{
+    list-style: none;
+}

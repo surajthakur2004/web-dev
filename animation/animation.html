@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+
+    <style>
+
+            /* .container{
+                height: 500px;
+                background-color:rgb(0, 0, 0);
+                padding: 10px;
+
+
+            }
+            .circle{
+                height: 200px;
+                width: 200px;
+                background-color: yellow;
+                text-align: center;
+                clip-path: circle(50%);
+                position: relative;
+                animation-name: movement;
+                animation-duration: 5s;
+                animation-iteration-count: infinite;
+                animation-delay: 1s;
+                animation-timing-function:cubic-bezier(0.6, 0, 1, 1);
+                animation-direction: alternate;
+                animation-fill-mode: forwards;
+                animation-play-state: running;
+            }
+
+            @keyframes movement {
+                from{
+                    top: 20;
+                    left: 0;
+                }
+
+                to{
+                    top: 20;
+                    left: 1200px;
+                }
+            }
+ */
+
+            .container{
+                background-color:blue;
+                height: 500px;
+                width: 50o0x;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .circle{
+                background-color: violet;
+                height: 90px;
+                width: 200px;
+                text-align: center;
+                border-radius: 10px;
+                transition: all 1s linear 0ms;
+                
+            }
+            .circle:hover{
+                
+                transform: scale(1.2);
+                
+            }
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="circle">
+            <h1>Hi</h1>
+        </div>
+    </div>
+</body>
+</html>

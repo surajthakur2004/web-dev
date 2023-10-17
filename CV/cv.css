@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding:0px;
+    font-family: 'Roboto Slab', serif;
+
+}
+p{
+    font-family: 'Exo 2', sans-serif;
+    margin: 10px 0px;
+}
+a{
+    
+    color: black;
+}
+
+h1,h4,h3{
+    font-family: 'Cinzel', serif;
+}
+h1{
+    font-size: 40px;
+    margin-bottom: 0px;
+    text-shadow: -3px -4px 7px  black;
+}
+h3{
+    margin-bottom: 0px;
+    font-size: 25px;
+    font-weight: 900;
+    text-decoration: underline;
+    
+}
+h4{
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+li{
+    font-family: 'Exo 2', sans-serif;
+}
+body{
+    
+}
+.cv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+   
+}
+.content{
+    width: 600px;
+    height: 750px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding-top: 30px;
+    background: #e7e5e5;
+}
+.profile-image img{
+    float: right;
+    margin-right: 10px;
+    position: relative;
+    top: 25px;
+    clip-path: circle(43.6% at 50% 50%);
+}
+.name{
+    background-color:rgb(165, 170, 174);
+    padding: 10px;
+    border-radius: 0px 0px 10px 15px;
+}
+.name p{
+   
+    text-indent: 10px;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    font-weight: 900;
+   
+}
+.header {
+  height: 150px;
+}
+
+.information {
+    margin: 0px 20px 0px 20px;
+    width: 200px;
+   
+}
+ .row-1col-1{
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+    border-radius: 0px 0px 10px 0px;
+    border-collapse: collapse;
+   width: 200px;
+ }
+ .row-1col-2{
+   padding-left: 20px;
+   border-bottom: 2px solid;
+   border-radius: 0px 0px 0px 10px;
+   border-collapse: collapse;
+ }
+ .row-2col-1{
+    border-right: 2px solid;
+    border-radius: 0px 10px 00px 0px;
+    border-collapse: collapse;
+ }
+ .row-2col-2{
+   padding-left: 20px;
+ }
+.profile {
+    /* width: 200px; */
+}
+.profile p{
+    width: 300px;
+}
+.skills {
+    margin: 20px;
+}

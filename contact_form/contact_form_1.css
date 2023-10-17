@@ -1,0 +1,20 @@
+div.outerform{
+    background-color: rgb(173, 169, 164);
+    margin: 0px;
+    border: solid;
+}
+div.innerform{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20px;
+
+}
+form.third{
+    border: solid;
+    width: 50%;
+    
+}
+span.fourth{
+    border: solid;
+    width: 20%;
+}
